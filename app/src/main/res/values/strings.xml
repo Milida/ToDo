@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="task_name_hint">Wprowadź nazwę zadania</string>
+    <string name="task_name_label">Nazwa</string>
+    <string name="task_details_label">Szczegóły</string>
+    <string name="task_done_label">Wykonane</string>
+    <string name="task_add_new">Nowe zadanie</string>
+    <string name="show_subtitle">Pokaż podtytuł</string>
+    <string name="hide_subtitle">Ukryj podtytuł</string>
+    <string name="subtitle_format">%1$d zadań do wykonania</string>
+    <string name="task_added">Dodano nowe zadanie!</string>
+    <string name="empty_not_saved">Zadanie nie zostało zapisane z uwagi na puste pola.</string>
+    <string name="task_edited">Zadanie zostało edytowane!</string>
+    <string name="task_deleted">Zadanie zostało usunięte</string>
+    <string name="button_save">Zapisz</string>
+    <string name="confirm_question">Czy na pewno chcesz usunąć to zadanie?</string>
+    <string name="task_details" translatable="false">%s\n%s</string>
+    <string name="yes_button">Tak</string>
+    <string name="no_button">Nie</string>
+    <string name="email_label">E-mail</string>
+    <string name="email_hint">E-mail…</string>
+    <string name="password_label">Hasło</string>
+    <string name="password_hint">Hasło…</string>
+    <string name="button_login">Zaloguj się</string>
+    <string name="login_error">Niepoprawny e-mail lub hasło!</string>
+    <string name="logout">Wyloguj się</string>
+    <string name="search">Szukaj</string>
+    <string name="button_register">Zarejestruj się</string>
+    <string name="name_label">Imię</string>
+    <string name="name_hint">Imię…</string>
+    <string name="age_label">Wiek</string>
+    <string name="age_hint">Wiek…</string>
+    <string name="to_do">Do zrobienia</string>
+    <string name="done">Wykonane</string>
+    <string name="all">Wszystkie</string>
+    <string name="api_error">Ups… coś poszło nie tak. Spróbuj ponownie później.</string>
+    <string name="registration_error">Popraw zawartość pól!</string>
+    <string name="no_internet_connection">Sprawdź połączenie internetowe</string>
+</resources>

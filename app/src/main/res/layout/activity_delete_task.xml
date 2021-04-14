@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteTaskActivity">
+
+    <TextView
+        android:id="@+id/confirm_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/confirm_question"
+        android:textSize="@dimen/bigger_text_size"/>
+
+    <TextView
+        android:id="@+id/task_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:textSize="@dimen/bigger_text_size"/>
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yes_button"
+        android:layout_marginBottom="@dimen/normal_padding"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/no_button" />
+
+</LinearLayout>

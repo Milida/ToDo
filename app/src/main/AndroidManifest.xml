@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.edu.pb.todo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_todo_app_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_todo_app_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToDo"
+        android:usesCleartextTraffic="true">
+        <activity android:name="pl.edu.pb.todo.user.RegisterActivity"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity android:name="pl.edu.pb.todo.user.LoginActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pl.edu.pb.todo.DeleteTaskActivity" />
+        <activity android:name="pl.edu.pb.todo.EditTaskActivity" />
+        <activity android:name="pl.edu.pb.todo.TaskListActivity" />
+    </application>
+
+</manifest>
